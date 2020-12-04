@@ -17,21 +17,9 @@ function App() {
 
       <Switch>
         <Route exact={true} path="/about" render={(rp) => <About {...rp} />} />
-        <Route
-          exact={true}
-          path="/brands"
-          render={(rp) => <Brands {...rp} />}
-        />
-        <Route
-          exact={true}
-          path="/projects"
-          render={(rp) => <Projects {...rp} />}
-        />
-        <Route
-          exact={true}
-          path="/contactus"
-          render={(rp) => <Contact {...rp} />}
-        />
+        <Route exact={true} path="/brands" render={(rp) => <Brands />} />
+        <Route exact={true} path="/projects" render={(rp) => <Projects />} />
+        <Route exact={true} path="/contactus" render={(rp) => <Contact />} />
       </Switch>
 
       <footer className="footer">
