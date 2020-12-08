@@ -3,10 +3,10 @@
 }
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  background-color: grey;
   color: white;
   text-align: center;
 }
@@ -44,6 +44,7 @@ img {
 }
 
 .container {
+  height: 450px;
   margin: 100px;
   position: relative;
   text-align: center;
@@ -55,7 +56,11 @@ img {
   height: 41px;
   width: 41px;
 }
-
+.phone {
+  margin: 5px;
+  height: 47px;
+  width: 47px;
+}
 .fbook {
   margin: 3px;
   height: 41px;
@@ -67,6 +72,22 @@ img {
   height: 36px;
   width: 36px;
 }
+
+.aboutTitle {
+  padding: 30px;
+}
+
+.brandsTitle {
+  padding: 30px;
+}
+
+.contactTitle {
+  padding: 30px;
+}
+
+/* .gearList {
+  text-align: center;
+} */
 /* 
 @media only screen and (min-width: 426px) {
   .navbar {

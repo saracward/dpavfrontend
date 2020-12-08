@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">{/* <Nav /> */}</header>
-      {/* <Home /> */}
       <main>
         <Switch>
           <Route
@@ -20,9 +19,10 @@ function App() {
             path="/about"
             render={(rp) => <About {...rp} />}
           />
-          <Route exact={true} path="/brands" render={(rp) => <Brands />} />
-          <Route exact={true} path="/projects" render={(rp) => <Projects />} />
-          <Route exact={true} path="/contactus" render={(rp) => <Contact />} />
+          <Route exact={true} path="/Brands" render={(rp) => <Brands />} />
+          <Route exact={true} path="/Projects" render={(rp) => <Projects />} />
+          <Route exact={true} path="/Contactus" render={(rp) => <Contact />} />
+          <Home />
         </Switch>
       </main>
       <footer className="footer">

@@ -26,17 +26,17 @@ const Example = (props) => {
           <Nav navbar>
             <NavItem>
               <Route>
-                <NavLink href="/about">About</NavLink>
+                <NavLink href="/About">About</NavLink>
               </Route>
             </NavItem>
             <NavItem>
-              <NavLink href="/brands">Brands</NavLink>
+              <NavLink href="/Brands">Brands</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/projects">Projects</NavLink>
+              <NavLink href="/Projects">Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contactus">Contact Us</NavLink>
+              <NavLink href="/Contactus">Contact Us</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
