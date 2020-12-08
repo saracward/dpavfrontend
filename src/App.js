@@ -1,12 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
 import About from "./About";
 import Brands from "./Brands";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import Home from "./Home";
-import { Link, Route, Switch } from "react-router-dom";
-// import Nav from "./Nav";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
