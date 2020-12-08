@@ -1,9 +1,13 @@
 import React from "react";
+import Nav from "./Nav";
 
 function Projects() {
   return (
     <div>
-      <h1>Hello Projects Page</h1>
+      <Nav />
+      <div className="projects">
+        <h1>Hello Projects Page</h1>
+      </div>
     </div>
   );
 }

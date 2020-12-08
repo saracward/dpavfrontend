@@ -4,24 +4,27 @@ import About from "./About";
 import Brands from "./Brands";
 import Contact from "./Contact";
 import Projects from "./Projects";
+import Home from "./Home";
 import { Link, Route, Switch } from "react-router-dom";
-import Nav from "./Nav";
+// import Nav from "./Nav";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Nav />
-      </header>
-      <img src="https://i.ibb.co/qrgf2x7/DPAV-Logo1.png" alt="dpavlogo" />
-
-      <Switch>
-        <Route exact={true} path="/about" render={(rp) => <About {...rp} />} />
-        <Route exact={true} path="/brands" render={(rp) => <Brands />} />
-        <Route exact={true} path="/projects" render={(rp) => <Projects />} />
-        <Route exact={true} path="/contactus" render={(rp) => <Contact />} />
-      </Switch>
-
+      <header className="App-header">{/* <Nav /> */}</header>
+      {/* <Home /> */}
+      <main>
+        <Switch>
+          <Route
+            exact={true}
+            path="/about"
+            render={(rp) => <About {...rp} />}
+          />
+          <Route exact={true} path="/brands" render={(rp) => <Brands />} />
+          <Route exact={true} path="/projects" render={(rp) => <Projects />} />
+          <Route exact={true} path="/contactus" render={(rp) => <Contact />} />
+        </Switch>
+      </main>
       <footer className="footer">
         <a href="https://www.instagram.com/dpaudiovideo/?hl=en">
           <img className="insta" src="https://i.ibb.co/X3v7DgD/ig.png" />
