@@ -8,7 +8,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import { Link, Route, Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 const Example = (props) => {
   const [collapsed, setCollapsed] = useState(true);

@@ -1,15 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Nav from "./Nav";
-import {
-  MDBRow,
-  MDBCol,
-  MDBCard,
-  MDBCardBody,
-  MDBIcon,
-  MDBBtn,
-  MDBInput,
-} from "mdbreact";
+import { MDBRow, MDBCol } from "mdbreact";
 
 function Contact() {
   return (
