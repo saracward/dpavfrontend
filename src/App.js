@@ -1,3 +1,4 @@
+import styles from "./App.css";
 import About from "./About";
 import Brands from "./Brands";
 import Contact from "./Contact";
