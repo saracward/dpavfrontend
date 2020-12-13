@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Quicksand", sans-serif;
 }
 
 .footer {
@@ -8,7 +9,8 @@
   width: 100%;
   background-color: grey;
   color: white;
-  text-align: center;
+  text-align: right;
+  padding: 0 5px 0 0;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -41,6 +43,11 @@ img {
   height: 350px;
   width: 100;
   opacity: 30%;
+}
+
+.brandsTitle {
+  width: 100%;
+  background-color: rgb(106, 120, 165);
 }
 
 .container {
@@ -94,3 +101,8 @@ img {
     display: none;
   }
 } */
+
+ul {
+  padding: 0px;
+  font-family: "Quicksand", sans-serif;
+}

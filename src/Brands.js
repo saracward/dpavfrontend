@@ -1,24 +1,33 @@
 import React from "react";
 import Nav from "./Nav";
+import { MDBContainer } from "mdbreact";
 
 function Brands() {
   return (
     <div>
       <div className="Brands">
         <Nav />
-        <h1 className="brandsTitle">Hello Brands Page</h1>
-        <p className="gearList">
-          <ul>Thing 1</ul>
-          <ul>Thing 2</ul>
-          <ul>Thing 3</ul>
-          <ul>Thing 4</ul>
-          <ul>Thing 5</ul>
-          <ul>Thing 6</ul>
-          <ul>Thing 7</ul>
-          <ul>Thing 8</ul>
-          <ul>Thing 9</ul>
-          <ul>Thing 10</ul>
-        </p>
+        <h1 className="brandsTitle">Brands We Love</h1>
+        <h2 className="gearList">
+          <ul>Novastar</ul>
+          <ul>Shure</ul>
+          <ul>Meyer Sound</ul>
+          <ul>Martin Lighting</ul>
+          <ul>Chauvet Professional</ul>
+          <ul>AJA</ul>
+          <ul>Blackmagic Design</ul>
+          <ul>High End Systems</ul>
+          <ul>Waves Audio</ul>
+          <ul>JBL</ul>
+          <ul>Laird Digital Cinema</ul>
+          <ul>Decimator</ul>
+          <ul>Drape Kings</ul>
+          <ul>Avid</ul>
+          <ul>ITT Truss</ul>
+          <ul>Staging Concept</ul>
+          <ul>Clear-Com</ul>
+          <ul>Neutrik</ul>
+        </h2>
       </div>
     </div>
   );
