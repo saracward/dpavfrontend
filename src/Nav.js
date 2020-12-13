@@ -10,14 +10,14 @@ import {
 } from "reactstrap";
 import { Route } from "react-router-dom";
 
-const Example = (props) => {
+const TopNavBar = (props) => {
   const [collapsed, setCollapsed] = useState(true);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
     <div>
-      <Navbar color="black" light className="navbar">
+      <Navbar color="light" light className="navbar">
         <NavbarBrand href="/" className="mr-auto">
           DPAV
         </NavbarBrand>
@@ -45,4 +45,4 @@ const Example = (props) => {
   );
 };
 
-export default Example;
+export default TopNavBar;
