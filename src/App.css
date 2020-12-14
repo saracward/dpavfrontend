@@ -8,7 +8,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: #85181d;
   color: white;
   text-align: right;
   padding: 0 5px 0 0;
@@ -127,18 +127,34 @@ p {
   font-size: 45px;
 }
 
-/* .gearList {
-  text-align: center;
-} */
-/* 
-@media only screen and (min-width: 426px) {
-  .navbar {
-    display: none;
-  }
-} */
-
 ul {
   padding: 0px;
   color: white;
   font-family: "Quicksand", sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  .dpavimg {
+    opacity: 60%;
+    width: 600px;
+    height: 600px;
+  }
+
+  .container {
+    height: 400px;
+    margin: 100px;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .enterlink {
+    font-size: 30px;
+    position: absolute;
+    letter-spacing: 6px;
+    color: white;
+    text-decoration: none;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
