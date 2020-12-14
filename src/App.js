@@ -25,18 +25,18 @@ function App() {
       </main>
       <footer className="footer">
         <a href="https://www.instagram.com/dpaudiovideo/?hl=en">
-          <img className="insta" src="https://i.ibb.co/X3v7DgD/ig.png" />
+          <img
+            className="insta"
+            src="https://i.ibb.co/vqpTkZ1/Untitled-3.png"
+          />
         </a>
         <a href="">
-          <img
-            className="fbook"
-            src="https://i.ibb.co/VNzdZ9Y/46-facebook-512.png"
-          />
+          <img className="fbook" src="https://i.ibb.co/64r8HqQ/fb-white.png" />
         </a>
         <a href="mailto:cassandra@dpaudiovideo.net">
           <img
             className="email"
-            src="https://i.ibb.co/BKy78jc/58485698e0bb315b0f7675a8.png"
+            src="https://i.ibb.co/89X70fs/mail-white.png"
           />
         </a>
       </footer>
