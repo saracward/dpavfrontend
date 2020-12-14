@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   font-family: "Quicksand", sans-serif;
-  background-color: #667296;
+  background-color: black;
 }
 
 .footer {
@@ -16,6 +16,7 @@
 
 .dpavimg {
   opacity: 60%;
+  width: 380px;
 }
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,11 +36,12 @@
 }
 
 .enterlink {
-  font-size: 40px;
+  font-size: 20px;
   position: absolute;
-  color: black;
+  letter-spacing: 6px;
+  color: white;
   text-decoration: none;
-  top: 78%;
+  top: 77%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -52,7 +54,9 @@ img {
 
 .brandsTitle {
   width: 100%;
-  background-color: rgb(106, 120, 165);
+  background-color: black;
+  color: white;
+  font-size: 60px;
 }
 
 .container {
@@ -61,6 +65,12 @@ img {
   position: relative;
   text-align: center;
   color: white;
+}
+
+h2,
+h1 {
+  color: white;
+  padding: 10px;
 }
 
 .insta {
@@ -87,6 +97,7 @@ img {
 
 .aboutTitle {
   padding: 30px;
+  color: white;
 }
 
 .brandsTitle {
@@ -97,6 +108,10 @@ img {
   padding: 30px;
 }
 
+.projects {
+  color: white;
+  font-size: 60px;
+}
 /* .gearList {
   text-align: center;
 } */
@@ -109,5 +124,6 @@ img {
 
 ul {
   padding: 0px;
+  color: white;
   font-family: "Quicksand", sans-serif;
 }

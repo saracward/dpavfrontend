@@ -7,14 +7,14 @@ function Contact() {
     <div className="contact">
       <Nav />
       <section className="my-5">
-        <h2 className="h1-responsive font-weight-bold text-center my-5">
+        <h1 className="h1-responsive font-weight-bold text-center my-5">
           Contact us
-        </h2>
-        <p className="text-center w-responsive mx-auto pb-5">
+        </h1>
+        <h2 className="text-center w-responsive mx-auto pb-5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
           amet numquam iure provident voluptate esse quasi, veritatis totam
           voluptas nostrum quisquam eum porro a pariatur veniam.
-        </p>
+        </h2>
         <center>
           <MDBRow className="text-center">
             <MDBCol md="4">
@@ -22,15 +22,15 @@ function Contact() {
                 className="phone"
                 src="https://i.ibb.co/h9nk25f/location.png"
               />
-              <p>Atlanta, Ga</p>
-              <p className="mb-md-0">United States</p>
+              <h2>Atlanta, Ga</h2>
+              <h2 className="mb-md-0">United States</h2>
             </MDBCol>
             <br />
             <br />
             <MDBCol md="4">
               <img className="phone" src="https://i.ibb.co/NY4vTTZ/call.pngs" />
-              <p>(850) 628 1145</p>
-              <p className="mb-md-0">Mon - Fri, 9:00am-5:00pm</p>
+              <h2>(850) 628 1145</h2>
+              <h2 className="mb-md-0">Mon - Fri, 9:00am-5:00pm</h2>
             </MDBCol>
 
             <MDBCol md="4">
@@ -40,8 +40,7 @@ function Contact() {
                   src="https://i.ibb.co/BKy78jc/58485698e0bb315b0f7675a8.png"
                 />
               </a>
-              <p>chris.mcdonald@dpaudiovideo.net</p>
-              <p className="mb-md-0">cassandra@dpaudiovideo.net</p>
+              <h2 className="mb-md-0">info@dpaudiovideo.net</h2>
             </MDBCol>
           </MDBRow>
         </center>
