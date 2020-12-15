@@ -4,13 +4,18 @@
   background-color: black;
 }
 
+.minilogo {
+  width: 60px;
+  height: 50px;
+}
+
 .footer {
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #85181d;
   color: white;
-  text-align: right;
+  text-align: center;
   padding: 0 5px 0 0;
 }
 
@@ -67,43 +72,51 @@ img {
   color: white;
 }
 
+.gearList :hover {
+  color: #106589;
+}
+
 h2,
-h1,
-p {
+h1 {
   color: white;
   padding: 10px;
 }
 
+p {
+  color: white;
+  font-size: 22px;
+}
+
 .insta {
-  padding: 3px;
-  height: 50px;
-  width: 50px;
+  margin: 5px 2px 6px 5px;
+  height: 48px;
+  width: 48px;
 }
 .location {
-  margin: 5px;
-  height: 50px;
-  width: 50px;
+  margin: 10px 0px 8px 0px;
+  height: 60px;
+  width: 60px;
 }
 
 .phone {
-  margin: 5px;
+  /* margin: 5px; */
   height: 75px;
   width: 75px;
 }
 
 .fbook {
-  padding: 3px;
-  height: 45px;
-  width: 45px;
+  margin: 2px 5px 5px 5px;
+  height: 48px;
+  width: 48px;
 }
 .email {
-  padding: 3px;
-  height: 37px;
-  width: 37px;
+  margin: 5px 5px 5px 5px;
+  height: 40px;
+  width: 40px;
 }
 
 .demail {
-  margin: 5px;
+  margin: 10px 0px 8px 0px;
   height: 55px;
   width: 55px;
 }
@@ -133,15 +146,34 @@ ul {
   font-family: "Quicksand", sans-serif;
 }
 
+.container {
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* button.mr-2.navbar-toggler {
+  background-color: #85181d;
+} */
+
 @media only screen and (min-width: 768px) {
   .dpavimg {
     opacity: 60%;
     width: 600px;
     height: 600px;
+    margin: 0 0 0 30px;
   }
 
   .container {
-    height: 400px;
+    height: 430px;
     margin: 100px;
     position: relative;
     text-align: center;
@@ -156,5 +188,28 @@ ul {
     top: 130%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .container {
+    animation: fadeIn 2s;
+    opacity: 1;
+  }
+
+  div.col-md-4 {
+    padding: 10px;
+    object-position: center;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }

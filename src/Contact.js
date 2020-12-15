@@ -15,6 +15,8 @@ function Contact() {
           amet numquam iure provident voluptate esse quasi, veritatis totam
           voluptas nostrum quisquam eum porro a pariatur veniam.
         </h2>
+        <br />
+        <br />
         <center>
           <MDBRow className="text-center">
             <MDBCol md="4">
@@ -22,18 +24,16 @@ function Contact() {
                 className="location"
                 src="https://i.ibb.co/1mySJrB/location-white.png"
               />
-              <h2>Atlanta, Ga</h2>
-              <h2 className="mb-md-0">United States</h2>
+              <p>Atlanta, Ga</p>
+              <p className="mb-md-0">United States</p>
             </MDBCol>
-            <br />
-            <br />
             <MDBCol md="4">
               <img
                 className="phone"
                 src="https://i.ibb.co/VDTQJL1/phone-white.png"
               />
-              <h2>(850) 628 1145</h2>
-              <h2 className="mb-md-0">Mon - Fri, 9:00am-5:00pm</h2>
+              <p>(850) 628 1145</p>
+              <p className="mb-md-0">Mon - Fri, 9:00am-5:00pm</p>
             </MDBCol>
 
             <MDBCol md="4">
@@ -43,11 +43,17 @@ function Contact() {
                   src="https://i.ibb.co/89X70fs/mail-white.png"
                 />
               </a>
-              <h2 className="mb-md-0">info@dpaudiovideo.net</h2>
+              <p className="mb-md-0">info@dpaudiovideo.net</p>
             </MDBCol>
           </MDBRow>
         </center>
       </section>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

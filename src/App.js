@@ -27,7 +27,7 @@ function App() {
         <a href="https://www.instagram.com/dpaudiovideo/?hl=en">
           <img
             className="insta"
-            src="https://i.ibb.co/vqpTkZ1/Untitled-3.png"
+            src="https://i.ibb.co/Ny3V1nk/46-facebook-512.png"
           />
         </a>
         <a href="">

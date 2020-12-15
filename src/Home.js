@@ -6,24 +6,16 @@ function Home() {
   return (
     <>
       <div className="container">
-        <motion.div
-          animate={{
-            scale: [1, 2, 2, 1, 1],
-            // rotate: [0, 30, 30, 0],
-            // borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-          }}
-        >
-          <img
-            className="dpavimg"
-            src="https://i.ibb.co/qrgf2x7/DPAV-Logo1.png"
-            alt="dpavlogo"
-          />
-          <div className="enter">
-            <Link className="enterlink" to="/about">
-              <p>| ENTER |</p>
-            </Link>
-          </div>
-        </motion.div>
+        <img
+          className="dpavimg"
+          src="https://i.ibb.co/qrgf2x7/DPAV-Logo1.png"
+          alt="dpavlogo"
+        />
+        <div className="enter">
+          <Link className="enterlink" to="/about">
+            <p>| ENTER |</p>
+          </Link>
+        </div>
       </div>
       <br />
       <br />

@@ -19,7 +19,10 @@ const TopNavBar = (props) => {
     <div>
       <Navbar color="light" light className="navbar">
         <NavbarBrand href="/" className="mr-auto">
-          DPAV
+          <img
+            className="minilogo"
+            src="https://i.ibb.co/s3g15zG/DPAV-mini-Logo1.png"
+          />
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
