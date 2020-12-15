@@ -7,8 +7,8 @@ function Contact() {
     <div className="contact">
       <Nav />
       <section className="my-5">
-        <h1 className="h1-responsive font-weight-bold text-center my-5">
-          Contact us
+        <h1 className="contactus">
+          <b>Contact us</b>
         </h1>
         <h2 className="text-center w-responsive mx-auto pb-5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error

@@ -5,7 +5,9 @@ function About() {
   return (
     <div className="About">
       <Nav />
-      <h1 className="aboutTitle">Hello About Page</h1>
+      <h1 className="aboutTitle">
+        <b>Hello About Page</b>
+      </h1>
       <p>DPAV words and things</p>
     </div>
   );

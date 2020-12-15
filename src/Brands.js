@@ -7,8 +7,10 @@ function Brands() {
     <div>
       <div className="Brands">
         <Nav />
-        <h1 className="brandsTitle">Brands We Love</h1>
-        <br />
+        <h1 className="brandsTitle">
+          <b>Brands We Love</b>
+        </h1>
+
         <h2 className="gearList">
           <ul>Novastar</ul>
           <ul>Shure</ul>
