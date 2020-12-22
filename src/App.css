@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: "Quicksand", sans-serif;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
   background-color: black;
 }
 
@@ -74,10 +74,12 @@ img {
 
 .gearList :hover {
   color: #106589;
+  /* font-family: Copperplate, Copperplate Gothic Light, fantasy; */
 }
 
 h2,
 h1 {
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
   color: white;
   padding: 10px;
 }
@@ -143,7 +145,7 @@ p {
 ul {
   padding: 0px;
   color: white;
-  font-family: "Quicksand", sans-serif;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
 }
 
 .container {

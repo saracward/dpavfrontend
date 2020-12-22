@@ -3,6 +3,9 @@ import About from "./About";
 import Brands from "./Brands";
 import Contact from "./Contact";
 import Projects from "./Projects";
+import Lighting from "./Lighting";
+import Audio from "./Audio";
+import Video from "./Video";
 import Home from "./Home";
 import { Route, Switch } from "react-router-dom";
 
@@ -20,6 +23,10 @@ function App() {
           <Route exact={true} path="/Brands" render={(rp) => <Brands />} />
           <Route exact={true} path="/Projects" render={(rp) => <Projects />} />
           <Route exact={true} path="/Contactus" render={(rp) => <Contact />} />
+          <Route exact={true} path="/Lighting" render={(rp) => <Lighting />} />
+          <Route exact={true} path="/Audio" render={(rp) => <Audio />} />
+          <Route exact={true} path="/Video" render={(rp) => <Video />} />
+
           <Home />
         </Switch>
       </main>
@@ -33,7 +40,7 @@ function App() {
         <a href="">
           <img className="fbook" src="https://i.ibb.co/64r8HqQ/fb-white.png" />
         </a>
-        <a href="mailto:cassandra@dpaudiovideo.net">
+        <a href="mailto:info@dpaudiovideo.net">
           <img
             className="email"
             src="https://i.ibb.co/89X70fs/mail-white.png"

@@ -1,19 +1,17 @@
 import React from "react";
 import Nav from "./Nav";
 
-function Projects() {
+function Lighting() {
   return (
     <div>
       <Nav />
-      <div>
+      <div className="lighting">
         <br />
-        <p className="projects">
-          <b>Hello Projects Page</b>
+        <p className="lightingGear">
+          <b>Hello Lighting Gear Page</b>
         </p>
         <br />
         <h2>
-          concept to design to execution
-          <br />
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
           amet numquam iure provident voluptate esse quasi, veritatis totam
           voluptas nostrum quisquam eum porro a pariatur veniam.
@@ -24,4 +22,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Lighting;

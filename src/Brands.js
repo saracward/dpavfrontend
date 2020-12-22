@@ -1,6 +1,18 @@
 import React from "react";
 import Nav from "./Nav";
-import { MDBContainer } from "mdbreact";
+import { Link } from "react-router-dom";
+import {
+  MDBBtn,
+  MDBCard,
+  MDBCardBody,
+  MDBCardImage,
+  MDBCardTitle,
+  MDBCardText,
+  MDBRow,
+  MDBCol,
+  MDBView,
+  MDBIcon,
+} from "mdbreact";
 
 function Brands() {
   return (
@@ -10,7 +22,77 @@ function Brands() {
         <h1 className="brandsTitle">
           <b>Brands We Love</b>
         </h1>
+        <MDBRow>
+          <MDBCol md="4">
+            <MDBCard narrow>
+              <MDBView cascade>
+                <MDBCardImage
+                  hover
+                  overlay="white-slight"
+                  className="card-img-top"
+                  src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                  alt="food"
+                />
+              </MDBView>
 
+              <MDBCardBody>
+                <MDBCardTitle className="font-weight-bold">
+                  Lighting{" "}
+                </MDBCardTitle>
+                <div className="lightingButton">
+                  <Link className="lightingLink" to="./Lighting">
+                    <MDBBtn color="unique">| Our Gear |</MDBBtn>
+                  </Link>
+                </div>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBCol>
+          <MDBCol md="4">
+            <MDBCard narrow>
+              <MDBView cascade>
+                <MDBCardImage
+                  hover
+                  overlay="white-slight"
+                  className="card-img-top"
+                  src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                  alt="food"
+                />
+              </MDBView>
+
+              <MDBCardBody>
+                <MDBCardTitle className="font-weight-bold">Audio </MDBCardTitle>
+                <div className="audioButton">
+                  <Link className="audioLink" to="./Audio">
+                    <MDBBtn color="unique">| Our Gear |</MDBBtn>
+                  </Link>
+                </div>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBCol>
+
+          <MDBCol md="4">
+            <MDBCard narrow>
+              <MDBView cascade>
+                <MDBCardImage
+                  hover
+                  overlay="white-slight"
+                  className="card-img-top"
+                  src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                  alt="food"
+                />
+              </MDBView>
+
+              <MDBCardBody>
+                <MDBCardTitle className="font-weight-bold">Video </MDBCardTitle>
+                <div className="videoButton">
+                  <Link className="videoLink" to="./Video">
+                    <MDBBtn color="unique">| Our Gear |</MDBBtn>
+                  </Link>
+                </div>{" "}
+              </MDBCardBody>
+            </MDBCard>
+          </MDBCol>
+        </MDBRow>
         <h2 className="gearList">
           <ul>Novastar</ul>
           <ul>Shure</ul>
