@@ -8,7 +8,7 @@ function Contact() {
       <Nav />
       <section className="my-5">
         <h1 className="contactUs">
-          <b>Contact us</b>
+          <b>Contact Us</b>
         </h1>
         <h2 className="text-center w-responsive mx-auto pb-5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
@@ -48,6 +48,8 @@ function Contact() {
           </MDBRow>
         </center>
       </section>
+      <br />
+      <br />
       <br />
       <br />
       <br />

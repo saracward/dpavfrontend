@@ -57,6 +57,10 @@ img {
   opacity: 50%;
 }
 
+.Brands {
+  padding: 35px;
+}
+
 .brandsTitle {
   width: 100%;
   background-color: black;

@@ -1,5 +1,17 @@
 import React from "react";
 import Nav from "./Nav";
+import Brands from "./Brands";
+import { Link } from "react-router-dom";
+import {
+  MDBBtn,
+  MDBCard,
+  MDBCardBody,
+  MDBCardImage,
+  MDBCardTitle,
+  MDBRow,
+  MDBCol,
+  MDBView,
+} from "mdbreact";
 
 function Video() {
   return (
@@ -8,14 +20,34 @@ function Video() {
       <div>
         <br />
         <p className="videoGear">
-          <b>Hello Video Gear Page</b>
+          <h1 className="aboutTitle">
+            <b>Hello Video Gear Page</b>
+          </h1>
         </p>
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <h2>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
-          amet numquam iure provident voluptate esse quasi, veritatis totam
-          voluptas nostrum quisquam eum porro a pariatur veniam.
+          <ul>AJA</ul>
+          <ul>Blackmagic Design</ul>
+          <ul>Decimator</ul>
+          <ul>Novastar</ul>
         </h2>
+        <br />
+        <br />
+        <br />
+        <br />
+        <Link to="./Brands">
+          <MDBBtn color="light">| BACK |</MDBBtn>
+        </Link>
+        <br />
+        <br />
+        <br />
         <br />
       </div>
     </div>

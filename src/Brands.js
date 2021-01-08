@@ -7,21 +7,19 @@ import {
   MDBCardBody,
   MDBCardImage,
   MDBCardTitle,
-  MDBCardText,
   MDBRow,
   MDBCol,
   MDBView,
-  MDBIcon,
 } from "mdbreact";
 
 function Brands() {
   return (
     <div>
+      <Nav />
+      <h1 className="brandsTitle">
+        <b>Brands We Love</b>
+      </h1>
       <div className="Brands">
-        <Nav />
-        <h1 className="brandsTitle">
-          <b>Brands We Love</b>
-        </h1>
         <MDBRow>
           <MDBCol md="4">
             <MDBCard narrow>
@@ -30,7 +28,7 @@ function Brands() {
                   hover
                   overlay="white-slight"
                   className="card-img-top"
-                  src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                  src="https://i.ibb.co/Mc50nWy/dawn-lio-g-Bqqes-BOnk-Y-unsplash.jpg"
                   alt="food"
                 />
               </MDBView>
@@ -47,6 +45,7 @@ function Brands() {
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
+
           <MDBCol md="4">
             <MDBCard narrow>
               <MDBView cascade>
@@ -54,7 +53,7 @@ function Brands() {
                   hover
                   overlay="white-slight"
                   className="card-img-top"
-                  src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                  src="https://i.ibb.co/7255wPB/saso-tusar-Qtg-GYlug6-Cw-unsplash.jpg"
                   alt="food"
                 />
               </MDBView>
@@ -77,7 +76,7 @@ function Brands() {
                   hover
                   overlay="white-slight"
                   className="card-img-top"
-                  src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                  src="https://i.ibb.co/rtnyBdf/frankie-lopez-f-XQpp-Si-TRGg-unsplash.jpg"
                   alt="food"
                 />
               </MDBView>
@@ -93,26 +92,15 @@ function Brands() {
             </MDBCard>
           </MDBCol>
         </MDBRow>
-        <h2 className="gearList">
-          <ul>Novastar</ul>
-          <ul>Shure</ul>
-          <ul>Meyer Sound</ul>
-          <ul>Martin Lighting</ul>
-          <ul>Chauvet Professional</ul>
-          <ul>AJA</ul>
-          <ul>Blackmagic Design</ul>
-          <ul>High End Systems</ul>
-          <ul>Waves Audio</ul>
-          <ul>JBL</ul>
+        {/* <h2 className="gearList">
           <ul>Laird Digital Cinema</ul>
-          <ul>Decimator</ul>
           <ul>Drape Kings</ul>
-          <ul>Avid</ul>
           <ul>ITT Truss</ul>
           <ul>Staging Concept</ul>
           <ul>Clear-Com</ul>
-          <ul>Neutrik</ul>
-        </h2>
+        </h2> */}
+        <br />
+        <br />
         <br />
       </div>
     </div>

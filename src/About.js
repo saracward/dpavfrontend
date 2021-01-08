@@ -14,7 +14,7 @@ function About() {
     <div className="About">
       <Nav />
       <h1 className="aboutTitle">
-        <b>Hello About Page</b>
+        <b>Who We Are</b>
       </h1>
       <MDBContainer>
         <MDBCarousel
@@ -29,7 +29,7 @@ function About() {
               <MDBView>
                 <img
                   className="d-block w-100"
-                  src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+                  src="https://i.ibb.co/drLSB5Y/stem-list-EVgs-Ab-L51-Rk-unsplash.jpg"
                   alt="First slide"
                 />
               </MDBView>
@@ -38,7 +38,7 @@ function About() {
               <MDBView>
                 <img
                   className="d-block w-100"
-                  src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
+                  src="https://i.ibb.co/KjDLQDL/melissa-askew-AUXanrck-Xn0-unsplash.jpg"
                   alt="Second slide"
                 />
               </MDBView>
@@ -47,7 +47,7 @@ function About() {
               <MDBView>
                 <img
                   className="d-block w-100"
-                  src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+                  src="https://i.ibb.co/px6RLXf/clark-tibbs-oq-Stl2-L5ox-I-unsplash.jpg"
                   alt="Third slide"
                 />
               </MDBView>
@@ -55,7 +55,20 @@ function About() {
           </MDBCarouselInner>
         </MDBCarousel>
       </MDBContainer>
-      <p>DPAV words and things</p>
+      <p>
+        DPAV is a high-end audio, lighting, and video company based out of
+        Panama City, Florida, serving the live music industry for over 25 years.
+        We are equipped to take care of everything from national music acts to
+        multiple day conferences.
+        <br />
+        Some of the gear we use includes Meyer Sound, Avid Venue Consoles, Hog
+        Lighting Desks and more. We pride ourselves on having the best audio
+        system engineers, lighting designers, and video directors in the field.
+      </p>
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
